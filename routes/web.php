@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController ::class, 'index'])->name('home');
 
 Route::middleware([
     'auth:sanctum',
@@ -23,6 +22,7 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('admin.home');
     })->name('dashboard');
 });
+Route::get('/redirect', [HomeController ::class, 'redirect'])->name('redirect');
