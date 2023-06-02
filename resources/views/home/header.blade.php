@@ -15,6 +15,7 @@
                    <ul class="dropdown-menu">
                       <li><a href="about.html">About</a></li>
                       <li><a href="testimonial.html">Testimonial</a></li>
+                      <li><a href="testimonial.html">Testimonial</a></li>
                    </ul>
                 </li>
                 <li class="nav-item">
