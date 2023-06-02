@@ -47,6 +47,7 @@
                         <div class="btn-box">
                            <a href="" class="btn1">
                            Shop Now
+                           Shop Now
                            </a>
                         </div>
                      </div>
