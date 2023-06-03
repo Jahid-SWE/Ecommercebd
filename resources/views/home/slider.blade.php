@@ -44,6 +44,7 @@
                         <p>
                            Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
                         </p>
+                        <p>New slider point of view</p>
                         <div class="btn-box">
                            <a href="" class="btn1">
                            Shop Now
