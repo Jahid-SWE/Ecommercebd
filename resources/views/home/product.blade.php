@@ -299,7 +299,9 @@
                 <div class="detail-box">
                    <h5>
                       Women's Dress
-                      Women's Dress
+                   </h5>
+                   <h5>
+                     Best sell Product
                    </h5>
                    <h6>
                       $65
