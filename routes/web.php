@@ -18,6 +18,7 @@ Route::get('/', [HomeController ::class, 'index'])->name('home');
 Route::get('/create', [HomeController ::class, 'create'])->name('create');
 Route::get('/contact', [HomeController ::class, 'contact'])->name('contact');
 Route::get('/about', [HomeController ::class, 'about'])->name('about');
+Route::get('/product', [HomeController ::class, 'Product'])->name('product');
 
 
 Route::middleware([
